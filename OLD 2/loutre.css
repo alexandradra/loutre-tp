@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*Feuille de style CSS "Loutre"*/
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+body {
+  background-color: #669999;
+  background-image: url("images/loutre_backgr.jpg");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position: bottom right;
+  color: black;
+  font-family: Verdana, sans-serif;
+}
+h1 {
+  color: maroon;
+  background-color: rgba(255,255,255,0.7);
+  font-family: 'Berkshire Swash', Tahoma, sans-serif;
+  font-style: italic;
+}

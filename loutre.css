@@ -1,2 +1,120 @@
 @charset "UTF-8";
-/*Feuille de style CSS "Loutre"*/
+
+/* Nouvelles polices */
+
+
+/*@Font-face{
+font-family:'LearningCurvePro' ;
+            src:url ('polices/learning_curve_bold_ot_ps.otf');
+            src:url ('polices/learning_curve_dings_ot_ps.otf');
+            src:url ('polices/learning_curve_dashed_ot_ps.otf');
+            src:url ('polices/learning_curve_regular_ot_ps.otf');}*/
+
+
+/* Commentaire : Feuille de style CSS "loutre" */
+
+
+/* Définition des caractéristiques générales */
+
+body {
+  background-color: #669999;
+  background-image: url("images/loutre_backgr.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+  color: black;
+  font-family: Tahoma, sans-serif;
+}
+
+
+/* Niveaux d'en-tête */
+
+h1 {
+  color: maroon;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px blue;
+  /*font-family: 'LearningCurvePro', Arial, serif;*/
+}
+
+h2 {
+  color: yellow;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 4px blue;
+  letter-spacing: 18px;
+}
+
+
+/* Pseudo élément */
+
+h2:first-letter {
+  font-weight: bold;
+  color: #333;
+}
+
+h3, h5 {
+  color: lime;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+}
+
+
+/* Définition des autres selecteurs */
+
+blockquote {
+  font-weight: bold;
+  font-size: large;
+  border-left-style: solid;
+  border-left-color: orange;
+  border-left-width: thick;
+}
+
+p {
+  text-indent: 30px;
+  line-height: 24px;
+}
+
+
+/* Les liens */
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: italic;
+  letter-spacing: 3px;
+}
+
+a:active, a:focus {
+  background-color: #FFFF00;
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* Les classes */
+
+.premier {
+  font-weight: bold;
+}
+
+
+/* Les identificateurs */
+
+#monadresse {
+  color: pink;
+}

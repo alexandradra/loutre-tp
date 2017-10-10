@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<!-- Le début de ma formation au html
+	     LP MANTIC -->
+	<title>Formulaire de contact</title>
+</head>
+<body>
+<header>
+<!-- Contenu visible de la page web-->
+<h5>Les loutres/<a href="index.html">Index</a>/<a href="maritime.html">Précédent</a>/---</h5>
+<h1>Formulaire de contact</h1>
+<p><img src="images/leuro01min.jpg" alt="Loutre d'Europe" title="La photo d'une loutre d'Europe" /></p>
+<hr/>
+<blockquote>La loutre est un animal vorace, plus avide de posson que de chair, qui ne quitte guère le bord des rivières ou des lacs et qui dépeuple quelquefois les étangs.</blockquote>
+<nav>
+ <hr/>
+ <p><strong>Notre Contenu</strong></p>
+ <ol>
+  <li><a href="europe.html">Loutre d'Europe</a></li>
+  <li><a href="maritime.html">Loutre maritime</a></li>
+  <li><a href="contact.html">Nous contacter</a></li>
+ </ol>
+</nav>
+</header>
+<div id="banniere_image">
+<div id="banniere_description">
+ <p>Disponible aussi : la loutre maritime <a href="maritime.html" class="bouton_rouge">Lire l'article<img src="images/flecheblanchedroite.png" alt="" /></a></p>
+</div>
+</div>
+<section>
+<article>
+<form method="post" action="http://www.monserveur.com/cgi-bin/mailscript" />
+<p><input type="hidden" name="origine" value="loutremantic" /></p>
+ <h1>Vos remarques au sujet des loutres</h1>
+ <fieldset>
+ <legend>Mieux vous connaître</legend>
+    <p><label for="prénom">Votre prénom : </label>
+   <input type="text" name="prenom" id="prénom" sie="20" maxlength="30" tabindex="10" /><br/>
+   <p><label for="nom">Votre nom : </label>
+   <input type="text" name="nom" id="nom" size="25" maxlength="35" tabindex="20"/><br/>
+   <p><label for="mail">Votre adresse de messagerie : </label>
+   <input type="text" name="mail" id="mail" sie="45" maxlength="50" tabindex="30"/><br/>
+   <p><label for="utilisateur">Votre nom d'utilisateur : </label>
+   <input type="text" name="utilisateur" id="utilisateur" sie="45" maxlength="50" 
+   placeholder="Noté sur votre carte d'étudiant" tabindex="40"/><br/>
+   <p><label for="passe">Votre mot de passe : </label>
+   <input type="password" name="passe" id="passe" sie="15" maxlength="20" tabindex="60" /></p>
+   <p>Votre sexe:<br/>
+   <input type="radio" value="h" name="sexe" id="masculin" checked="checked" tabindex="70"/><label for="masculin">Homme</label><br/>
+   <input type="radio" value="f" name="sexe" id="feminin" tabindex="80" /><label for="feminin" >Femme</label></p>
+  </fieldset>
+  <p>&nbsp;</p>
+  <fieldset>
+  <legend>Ce que vous voulez nous dire</legend>
+  <p>Votre question se rapporte: <br/>
+  <input type="checkbox" name="europe" id="europe" tabindex="90"/><label for="europe">La loutre d'Europe</label><br />
+  <input type="checkbox" name="maritime" id="maritime" tabindex="100"/><label for="maritime">La loutre maritime</label></p>
+  <p><label for="question">A quel niveau placez-vous votre question ou remarque ?</label><br/>
+  <select size="6" name="question" id="question" >
+   <optgroup label="débutant">
+    <option tabindex="110">Novice</option>
+    <option selected="selected" tabindex="120">Intermédiaire</option>
+   </optgroup>
+   <optgroup label="connaisseur">
+    <option tabindex="130">Avancé</option>
+    <option tabindex="140">Expert</option>
+   </optgroup>
+  </select></p>
+  <p><textarea rows="10" cols="25" name="zone" id="zone" tabindex="150" accesskey="C">
+  Saisir ici votre question ou commentaire sur les loutres
+  </textarea></p>
+  </fieldset>
+  <p>&nbsp;</p>
+  <p><input type="submit" value="Envoyer la remarque" tabindex="160" />
+  <input type="reset" value="Recommencer la saisie" tabindex="170"/></p>
+</form>
+</article>
+<aside>
+ <h1>Retrouvez-nous sur...</h1>
+ <img src="images/bulle.png" alt="" id="fleche_bulle" />
+ <p id="bebeloutre"><img src="images/bebeloutre.jpg" alt="loutre" /></p>
+ <p>Un couple d'Ecossais a découvert sur un parking une loutre en piteux état.<br />
+ <a href="http://www.maxisciences.com/loutre/un-bebe-loutre-mourant-recueilli-sur-un-parking_art28329.html">Maxisciences.com</a></p>
+ <p><img src="images/facebook.png" alt"Facebook" /><img src="images/twitter.png" alt"Twitter" /> <img src="images/vimeo.png" alt"Vimeo" /> 
+ <img src="images/flickr.png" alt"Flickr" /> <img src="images/rss.png" alt"RSS" />
+</aside>
+</section>
+<footer>
+ <div id="tweet">
+  <h1>Latest Tweet</h1>
+  <p>Les loutres de plus en plus protégées</p>
+  <p>Le 08 août 2017</p>
+ </div>
+ <div id="mon_adresse">
+  <p><address><strong>La loutre d'Europe</strong><br/>
+  Dernière modification : 07 Août 2017<br/>
+  Page Web par <a href="mailto:paul.durand@univ-amu.fr;p.durand@hotmail.fr?subject=Remarques sur 
+  la page web de la loutre d%27Europe&cc=rdupont@gmail.com&body=Elle est superbe, cette page web 
+sur les loutres.">Paul Durand</a> (paul.durand@univ-amu.fr)<br/>
+  <a href="http://www.univ-amu.fr">Université d'Aix-Marseille</a><br/>
+  URL:http://univ-amu.fr/</address></p>
+ </div>
+ <div id="mes_amis">
+  <h1>Sites référencés</h1>
+  <ul>
+   <li><a href="http://inpn.mnhn.fr/espece/cd_nom/60630">INPN</a></li>
+   <li><a href="http://fr.wikipedia.org/wiki/Loutre_d%27Europe">Wikipedia</a></li>
+   <li><a href="http://www.vienne-nature.asso.fr/acces-thematique/faune/mammiferes/castor-loutre.html">Vienne nature</a></li>
+  </ul>
+  <ul>
+   <li><a href="http://www.sfepm.org/pdf/PNALoutre.pdf">Document de la SFEPM</a></li>
+   <li><a href="http://www.auvergne.developpement-durable.gouv.fr/IMG/pdf/etat_art_loutre_V2_cle52aa6f.pdf">Loutre d'Eurasie</a></li>
+  </ul>
+ </div>
+</footer>
+</body>
+</html>
